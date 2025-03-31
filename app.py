@@ -55,7 +55,7 @@ if __name__ == "__main__":
         )
         st.stop()   
 
-    llm = ChatGroq()
+    llm = ChatGroq(model="llama-3.3-70b-versatile")
     system_prompt = SYSTEM_PROMPT
     welcome_message = WELCOME_MESSAGE
     customer_data = get_user_data()

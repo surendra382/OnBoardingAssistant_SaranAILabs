@@ -7,5 +7,6 @@ Faker==30.0.0
 python-dotenv==1.0.1
 streamlit==1.38.0
 pydpf==5.1.0
-sentence-transformers
-langchain_huggingface
+sentence-transformers==3.3.1
+langchain_huggingface==0.1.2
+faiss-cpu==1.9.0.post1
